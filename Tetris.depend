@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1555720217 source:d:\programs\cb\tetris\main.cpp
+	<windows.h>
+	"resource.h"
+	"view/Debug.h"
+	"view/Graph.h"
+	"game/GameController.h"
+
+1554361535 source:d:\programs\cb\tetris\game\gamecontroller.cpp
+	"GameController.h"
+
+1554381779 d:\programs\cb\tetris\game\gamecontroller.h
+	<time.h>
+	"Mem.h"
+	"GameMap.h"
+	"Shape.h"
+
+1551511679 d:\programs\cb\tetris\game\mem.h
+	<stdlib.h>
+	<assert.h>
+
+1554362327 d:\programs\cb\tetris\game\gamemap.h
+	<stdio.h>
+	<assert.h>
+	"Mem.h"
+
+1554362231 d:\programs\cb\tetris\game\shape.h
+	<stdio.h>
+	<assert.h>
+
+1554298663 source:d:\programs\cb\tetris\game\gamemap.cpp
+	"GameMap.h"
+
+1551511673 source:d:\programs\cb\tetris\game\mem.cpp
+	"Mem.h"
+
+1554297778 source:d:\programs\cb\tetris\game\shape.cpp
+	"Shape.h"
+
+1555720317 d:\programs\cb\tetris\resource.h
+
+1555720317 source:d:\programs\cb\tetris\resources.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1551837557 source:d:\programs\cb\tetris\view\debug.cpp
+	"Debug.h"
+
+1551837546 d:\programs\cb\tetris\view\debug.h
+	<Windows.h>
+
+1554381829 source:d:\programs\cb\tetris\view\graph.cpp
+	"Graph.h"
+
+1554381930 d:\programs\cb\tetris\view\graph.h
+	<Windows.h>
+	"../game/GameController.h"
+	"Debug.h"
+
